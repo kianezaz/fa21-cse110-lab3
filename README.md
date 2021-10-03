@@ -1,0 +1,1 @@
+You can find the Lab 2 web page [here](https://kianezaz.github.io/Lab2/)
