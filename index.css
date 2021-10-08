@@ -53,7 +53,7 @@ a[href*="Github"] {
 }
 
 input[type="text"] {
-    background-color: rgb(230,230,230); 
+    background-color: rgb(210,210,210); 
 }
 
 video, audio {
@@ -120,6 +120,22 @@ ol {
     line-height: 2em;
 }
 
-.summary-text {
+#flex-container p {
     font-size: .75rem;
+}
+
+section > audio:hover {
+    background-color: green;
+}
+
+#additional ~ span {
+    color: red;
+}
+
+li + li {
+    color: rgb(103, 111, 155);
+}
+
+h3.section-title {
+    text-align: center;
 }
