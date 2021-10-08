@@ -8,6 +8,7 @@
     margin: auto;
     text-align: center;
     text-decoration: underline;
+    position: static;
 }
 
 .section-title {
@@ -96,4 +97,10 @@ video, audio {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2
+}
+
+img {
+    position: relative;
+    top: 10px;
+    left: 100px;
 }
