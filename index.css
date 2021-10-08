@@ -57,20 +57,43 @@ video, audio {
     display: inline-block;
 }
 
-#details {
+#flex-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-#details-item1 {
+#flex-item1 {
     flex-grow: 1;
 }
 
-#details-item2 {
+#flex-item2 {
     flex-grow: 1;
 }
 
-#details-item3 {
+#flex-item3 {
     flex-grow: 1;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+}
+
+#grid-item1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+}
+
+#grid-item2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2
+}
+
+#grid-item3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2
 }
