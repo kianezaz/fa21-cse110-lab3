@@ -1,3 +1,9 @@
+@media screen {
+    body {
+        background-color: rgb(235, 235, 235);
+    }
+}
+
 * {
     font-family: 'Roboto', serif
 }
@@ -42,7 +48,7 @@ a:active {
 }
 
 a[href*="Github"] {
-    color: cyan
+    color: rgb(39, 192, 192)
 }
 
 input[type="text"] {
